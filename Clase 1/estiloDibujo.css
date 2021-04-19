@@ -1,0 +1,86 @@
+div{ 
+    background-color: gray;
+    
+}
+
+#cabecera {
+    height: 200px;
+    width: 95%;
+    margin: 20px 20px 20px 20px;
+    background-color: green;
+}
+#contenedor1 {
+    background-color: red;
+    margin: 20px 20px 20px 20px;
+    height: 600px;
+    width: 95%;
+    display: inline-block;
+    position: relative;
+    
+}
+.grid {
+
+    display: grid;
+    grid-template-columns: 25% 71%;
+    grid-template-rows: 600px;
+  }
+
+.a {
+    display: grid;
+  
+    margin-left: 20px;
+}
+.aside {
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 0px;
+    position: relative;
+
+}
+
+.b {
+    display: grid;
+    background-color: red;
+    margin-left: 30px;
+}
+
+.section {
+    background-color:red;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    display: grid;
+
+}
+
+
+.element {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 33% 33%  33% ;
+    grid-template-rows: 80%;
+
+
+
+
+}
+
+.element-list {
+    background-color: yellow ;
+    width: 90%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+
+
+}
+
+
+.footer {
+
+    background-color: blueviolet;
+    margin-left: 50px;
+    width: 90% ;
+    height: 70%;
+}
